@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+  margin: auto;
+  padding: 0 20px 0 20px;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.arrow {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #1db060;
+  border-radius: 3px;
+  color: #1db060;
+  background-color: white;
+  vertical-align:middle;
+  text-align:center;
+  line-height:10px;
+  padding: 0 0 2px 0;
+  outline: none;
+}
+
+.buttonUp {
+  width: 80px;
+  height: 25px;
+  border: 1px solid dodgerblue;
+  border-radius: 3px;
+  color: #1db060;
+  background-color: white;
+  vertical-align:middle;
+  text-align:center;
+  line-height:10px;
+  padding: 0 0 2px 0;
+  outline: none;
+}
+
+.buttonUpTop {
+  width: 80px;
+  height: 25px;
+  border: 1px solid dodgerblue;
+  border-radius: 3px;
+  color: #1db060;
+  background-color: white;
+  vertical-align: top;
+  text-align:center;
+  line-height:10px;
+  padding: 0 0 2px 0;
+  outline: none;
+}
+
+.buttonDel {
+  width: 80px;
+  height: 25px;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: #1db060;
+  background-color: white;
+  vertical-align:middle;
+  text-align:center;
+  line-height:10px;
+  padding: 0 0 2px 0;
+  outline: none;
+}
+
+.arrow:hover{
+  background-color: #ffbf00;
+  color: white;
+}
+
+.buttonDel:hover {
+  background-color: red;
+  color: white;
+}
+.input{
+  width: 350px;
+  height: 25px;
+  border: 1px solid #818080;
+  border-radius: 3px;
+  outline: none;
+}
+
+.input60{
+  width: 60px;
+  height: 25px;
+  border: 1px solid #818080;
+  border-radius: 3px;
+  outline: none;
+}
+
+.button87 {
+  width: 87px;
+  height: 25px;
+  border: 1px solid #818080;
+  border-radius: 3px;
+  outline: none;
+  background-color: #ecebeb;
+  vertical-align: bottom;
+  font-size: 13px;
+}
+
+.input155{
+  width: 155px;
+  height: 25px;
+  border: 1px solid #818080;
+  border-radius: 3px;
+  outline: none;
+}
+
+.input175{
+  width: 175px;
+  height: 25px;
+  border: 1px solid #818080;
+  border-radius: 3px;
+  outline: none;
+}
+.input260{
+  width: 260px;
+  height: 25px;
+  border: 1px solid #818080;
+  border-radius: 3px;
+  outline: none;
+}
+
+.buttonUp:hover {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+button:focus{
+  outline: none;
+}
+
+.card{
+  background-color: #fffae6;
+  box-shadow: 1px 1px 1px darkgrey;
+  margin: 5px;
+  font-size: 18px;
+
+}
+.list-group-item{
+  background-color: #fffae6;
+}
+
